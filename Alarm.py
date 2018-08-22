@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time 
 
-url = "https://api.telegram.org/bot645097492:AAFFBRIL2KQOlLb1TKmVpM2Km1kUoONgR2M/sendMessage?chat_id=432886424&text="
+url = "https://api.telegram.org/bot<place for your token>/sendMessage?chat_id=432886424&text="
 user_agent = {'User-agent': 'Mozilla/5.0'}
 http_proxy  = "http://10.10.1.10:3128"
 https_proxy = "https://178.168.67.89:4645"
@@ -27,6 +27,3 @@ while True:
 '''%(kourses_of_the_day_usd_f,kourses_of_the_day_usd))
         requests.post(url= url + TextMessage, proxies=proxyDict)
     kourses_of_the_day_usd_f = kourses_of_the_day_usd
-        
-
-
