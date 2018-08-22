@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 import time 
 # Строчка ниже - часть апишника telegram, фактически мы просто вводим это в браузер от имени программы, в конце переменной поле текст остается открытым
-url = "https://api.telegram.org/bot<Место для вашего токена>/sendMessage?chat_id=432886424&text=" 
-user_agent = {'User-agent': 'Mozilla/5.0'} #без данных ухищерений некоторые саайты могут посчитать нас спамерами и просто не дадут доступа к контенту
+url = "https://api.telegram.org/bot645097492:AAFFBRIL2KQOlLb1TKmVpM2Km1kUoONgR2M/sendMessage?chat_id=432886424&text=" 
+user_agent = {'User-agent': 'Mozilla/5.0'} #без данных ухищерений некоторые сайты могут посчитать нас спамерами и просто не дадут доступа к контенту
 http_proxy  = "http://10.10.1.10:3128"#Строчки 10 - 16 это прокси для обхода блокировки РКН
 https_proxy = "https://178.168.67.89:4645"#
 ftp_proxy   = "ftp://10.10.1.10:3128"#
