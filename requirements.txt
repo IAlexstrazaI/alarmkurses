@@ -3,4 +3,8 @@ chardet==3.0.4
 idna==2.7
 requests==2.19.1
 urllib3==1.23
+<<<<<<< HEAD
 beautifulsoup4==4.6.0
+=======
+beautifulsoup4==4.6.0
+>>>>>>> 8de7009a521824a8aac487179d2e2ee3ebe8afa3
